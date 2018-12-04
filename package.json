@@ -1,0 +1,30 @@
+{
+  "name": "nodelib.git",
+  "version": "0.1.0",
+  "description": "A module to share react components",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d build --copy-files",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olarra/nodeModule.git"
+  },
+  "author": "Jesus GARNICA OLARRA",
+  "license": "(MIT)",
+  "bugs": {
+    "url": "https://github.com/olarra/nodeModule/issues"
+  },
+  "homepage": "https://github.com/olarra/nodeModule#readme",
+  "dependencies": {
+    "react": "^16.6.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
